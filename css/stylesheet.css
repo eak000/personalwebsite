@@ -239,14 +239,19 @@ textarea {
 	max-width: 700px;
 	font-family: 'Avant Garde', sans-serif;
 	font-size: .85em;
+	border-top: 2px solid gray;
 }
 
 .resume h2 {
 	padding-top: 10px;
 }
 
+span.bold {
+	font-weight: bold;
+}
 
-/*resume table style*/
+
+/*resume table style
 
 table {
 	border-collapse: collapse;
@@ -264,14 +269,9 @@ table h2 {
 	margin-top: 15px;
 }
 
-span.bold {
-	font-weight: bold;
-}
-
-
 table li {
 	list-style-type: square;
-}
+}*/
 
 .pdf::before {
 	content: url(../images/pdf.png);
